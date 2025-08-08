@@ -421,7 +421,7 @@ R_PointToDist
 void R_InitPointToAngle (void)
 {
     // UNUSED - now getting from tables.c
-#if 0
+//#if 0
     int	i;
     long	t;
     float	f;
@@ -434,7 +434,7 @@ void R_InitPointToAngle (void)
 	t = 0xffffffff*f;
 	tantoangle[i] = t;
     }
-#endif
+//#endif
 }
 
 
@@ -504,7 +504,7 @@ fixed_t R_ScaleFromGlobalAngle (angle_t visangle)
 void R_InitTables (void)
 {
     // UNUSED: now getting from tables.c
-#if 0
+//#if 0
     int		i;
     float	a;
     float	fv;
@@ -527,7 +527,7 @@ void R_InitTables (void)
 	t = FRACUNIT*sin (a);
 	finesine[i] = t;
     }
-#endif
+//#endif
 
 }
 
